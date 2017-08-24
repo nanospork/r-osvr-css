@@ -153,3 +153,7 @@ html:lang(od) .link:not(.linkflair-osvr) {
     margin-right: 44px:
 }
 /* End Addon */
+
+/* Addon: Add Black Bar */
+#sr-header-area { background-color: rgba(0,0,0,0.5); }
+/* End Addon */
