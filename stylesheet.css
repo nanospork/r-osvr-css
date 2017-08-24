@@ -135,3 +135,21 @@ html:lang(od) .link:not(.linkflair-osvr) {
 .flair-osvr:before{background-position:0 -16px}
 .flair-razer:before{background-position:0 -32px}
 /* End Addon */
+
+/* Addon: Custom Snoo */
+#header-img.default-header, #header-img {
+    background: url(%%snoo%%) no-repeat 0px 0px;
+}
+
+    #header-img.default-header:hover, #header-img:hover {
+        background-position: 0px 0px;
+    }
+/* End Addon */
+
+/* Addon: Modify Sidebar Image */
+.side::before {
+    width: 232px;
+    margin-left: 44px;
+    margin-right: 44px:
+}
+/* End Addon */
