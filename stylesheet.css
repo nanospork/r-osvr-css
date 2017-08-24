@@ -1,0 +1,133 @@
+/*-------------------
+       HEADER
+-------------------*/
+
+#header { height: 145px; background: white; }
+
+.side .md [href="http://www.reddit.com/r/osvr"] {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 99;
+    height: 126px;
+    width: 134px;
+    background: url(%%Ds7GfNscAztEYXY31xwJmtQkLsj7nw693hiFo054vJE%%);
+    text-indent: -9999em; 
+}
+/*-------------------
+       FLAIR
+-------------------*/
+.flair {
+    background: url(%%spritesheet%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+
+.flair-osvr {
+    width: 24px;
+    height: 22px;
+    background-position: 0 0;
+}
+
+.flair-sensics {
+    width: 59px;
+    height: 12px;
+    background-position: 0 -24px;
+}
+
+.flair-razer {
+    background-color: black;
+    color: #47e10c;
+}
+
+.linkflair-technicalsupport .linkflairlabel {
+    background-color: #add5ab;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;}
+
+.linkflair-hdkdiscussion .linkflairlabel {
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    color:#ff6600;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;}
+
+
+.linkflair-softwarediscussion .linkflairlabel {
+    background-color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+    max-width: none;
+}
+
+.linkflair-general .linkflairlabel {
+    background-color: #66ccff;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;}
+
+
+.linkflair-meta .linkflairlabel {
+    background-color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    color:#660066;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;}
+
+
+.linkflair-other .linkflairlabel {
+    background-color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    color:#660066;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;}
+	
+.linkflair-osvr .linkflairlabel {
+    background-color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    color:#ff0000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;}
+/*-------------------
+       FILTER
+-------------------*/
+
+html:lang(ts) .link:not(.linkflair-technicalsupport) {
+    display: none    }
+
+html:lang(hd) .link:not(.linkflair-hdkdiscussion) {
+    display: none    }
+
+html:lang(sd) .link:not(.linkflair-softwarediscussion) {
+    display: none    }
+
+html:lang(ge) .link:not(.linkflair-general) {
+    display: none    }
+
+html:lang(me) .link:not(.linkflair-meta) {
+    display: none    }
+
+html:lang(ot) .link:not(.linkflair-other) {
+    display: none    }
+	
+html:lang(od) .link:not(.linkflair-osvr) {
+    display: none    }
