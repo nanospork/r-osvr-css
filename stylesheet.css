@@ -1,22 +1,5 @@
 /*-------------------
-       HEADER
--------------------*/
-
-#header { height: 145px; background: white; }
-
-.side .md [href="http://www.reddit.com/r/osvr"] {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    z-index: 99;
-    height: 126px;
-    width: 134px;
-    background: url(%%Ds7GfNscAztEYXY31xwJmtQkLsj7nw693hiFo054vJE%%);
-    text-indent: -9999em; 
-}
-
-/*-------------------
-       FLAIR
+       LINKFLAIR
 -------------------*/
 
 .linkflair-technicalsupport .linkflairlabel {
@@ -139,7 +122,7 @@ html:lang(od) .link:not(.linkflair-osvr) {
     margin-right: 6px;
     margin-left: 4px;
     content: "";
-    background-image: url(%%spritesheet-flairs%%);
+    background-image: url(%%spritesheet-flair%%);
     background-size: 100% 100%;
     background-position: 0px 0px;
     vertical-align: top;
