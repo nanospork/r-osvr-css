@@ -19,29 +19,6 @@
        FLAIR
 -------------------*/
 
-.flair {
-    background: url(%%spritesheet%%) no-repeat -9999px;
-    border: 0;
-    padding: 0;
-}
-
-.flair-osvr {
-    width: 24px;
-    height: 22px;
-    background-position: 0 0;
-}
-
-.flair-sensics {
-    width: 59px;
-    height: 12px;
-    background-position: 0 -24px;
-}
-
-.flair-razer {
-    background-color: black;
-    color: #47e10c;
-}
-
 .linkflair-technicalsupport .linkflairlabel {
     background-color: #add5ab;
     font-size: 11px;
@@ -153,3 +130,25 @@ html:lang(od) .link:not(.linkflair-osvr) {
     End of Naut
     Add your customizations and addons below!
 -------------------------------------------------------------------------- */
+
+/* Addon: User Flair Images */
+.flair:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-left: 4px;
+    content: "";
+    background-image: url(%%spritesheet-flairs%%);
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    vertical-align: top;
+    position: relative;
+    top: -1px;
+}
+
+/* The "one", "two", etc.. are the names you fill in in the "css" input field on the /r/.../about/flair page. */
+.flair-sensics:before{background-position:0 -0; width: 59}
+.flair-osvr:before{background-position:0 -16px}
+.flair-razer:before{background-position:0 -32px}
+/* End Addon */
