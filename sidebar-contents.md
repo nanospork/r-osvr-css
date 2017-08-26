@@ -14,6 +14,8 @@ Below are some other links to help you get started:
 
 # Post Filters
 
+[No Filter](http://www.reddit.com/r/osvr)
+
 [OSVR Discussion](http://od.reddit.com/r/osvr/#od)
 
 [HDK Discussion](http://hd.reddit.com/r/osvr/#hd)
@@ -27,7 +29,5 @@ Below are some other links to help you get started:
 [Meta](http://me.reddit.com/r/osvr/#me)
 
 [Other](http://ot.reddit.com/r/osvr/#ot)
-
-[Subreddit](http://www.reddit.com/r/osvr)
 
 ##### /r/OSVR just got a lot more stylish! Let us know what you think [here](https://www.reddit.com/r/OSVR/comments/6vul35/new_subreddit_style/).
