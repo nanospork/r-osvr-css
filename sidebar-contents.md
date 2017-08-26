@@ -30,4 +30,6 @@ Below are some other links to help you get started:
 
 [Other](http://ot.reddit.com/r/osvr/#ot)
 
+---
+
 ##### /r/OSVR just got a lot more stylish! Let us know what you think [here](https://www.reddit.com/r/OSVR/comments/6vul35/new_subreddit_style/).
