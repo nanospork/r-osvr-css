@@ -1,32 +1,46 @@
-/* --- Add-on: LINK BOX BEFORE LISTINGS ON MAIN PAGE --- */
-https://www.reddit.com/r/naut/comments/4p6i0n/announcement_bar/
-      body.listing-page > .content {margin-top: 66px;}
+/* --- Add-on: LINK BOX BEFORE LISTINGS ON MAIN PAGE ---
+Borrowed from /u/ck2875 https://www.reddit.com/r/ck2875/about/stylesheet 
+Anything in the sidebar at header level 5 (#####) will show up as an announcement.
+Not currently used because it seems to conflict with RES a bit.
+*/
+
+    body.listing-page > .content .sitetable {margin-top: 66px;}
+
+    .listing-page .side .titlebox .md h5:before{
+         content:"NEWS:";
+         display:block;
+         position:absolute;
+          text-indent: 0px;
+          padding: 0px 10px 0px 16px;
+          background-color: #27b062;
+          color: #fff;
+          border-radius: 2px 0px 0px 2px;
+          left: 0px;}
 
     .listing-page .side .titlebox .md h5 {
-           display: block;
-           min-width:550px;
-           overflow: hidden;
-           text-overflow: hidden;
-           position: absolute;
-           top: 202px;
-           left: 16px;
-           border-radius: 2px;
-           padding: 0px 15px;
-           background: #fff;
-           box-shadow:0 1px 4px 0 rgba(0,0,0,0.14);
-           right: 352px;
-           font-size: 13px;
-           height: 35px; line-height: 35px;
-           text-decoration: none;
-           animation-name: fadein;
-           animation-duration: .75s;
-           animation-iteration-count: 1;
-          -webkit-animation-name: fadein;
-          -webkit-animation-duration: .75s;
-          -webkit-animation-iteration-count: 1;
-          }
+        display: block;
+        text-indent: 50px;
+        min-width:550px;
+        overflow: hidden;
+        text-overflow: hidden;
+        position: absolute;
+        top: 202px;
+        left: 16px;
+        border-radius: 2px;
+        padding: 0px 15px 0px 30px;
+        background: #fff;
+        box-shadow:0 1px 4px 0 rgba(0,0,0,0.14);
+        right: 352px;
+        font-size: 13px;
+        height: 35px; line-height: 35px;
+        text-decoration: none;
+        animation-name: fadein;
+        animation-duration: .75s;
+        animation-iteration-count: 1;
+        -webkit-animation-name: fadein;
+        -webkit-animation-duration: .75s;
+        -webkit-animation-iteration-count: 1;}
 
-          .md, .md h5 {font-weight: 400;}
-          .md h5 {border: 0;color: #000!important}
-           h5 {font-size: 100%;}
-/* End Addon */
+    .md, .md h5 {font-weight: 400;}
+    .md h5 {border: 0;color: #000!important}
+    h5 {font-size: 100%;}

@@ -157,3 +157,7 @@ html:lang(od) .link:not(.linkflair-osvr) {
 /* Addon: Add Black Bar */
 #sr-header-area { background-color: rgba(0,0,0,0.5); }
 /* End Addon */
+
+/* Addon: Change Header Subreddit Name Color */
+#header .pagename a {color: rgba(230, 119, 43, 0.9)}
+/* End Addon */
